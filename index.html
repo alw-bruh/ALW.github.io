@@ -32,8 +32,16 @@
         background-color: rgb(82, 215, 255);
         color: aliceblue;
       }
-      .img_1{
+      .img-1 {
         overflow: hidden;
+        max-height: 200px;
+        min-height: 100px;
+        width: 100px;
+      }
+      .img-2 {
+       width:auto;
+       height: 100px;
+       
       }
     </style>
     <meta charset="UTF-8" />
@@ -101,17 +109,19 @@
       </div>
     </nav>
 
-    < class="container-fluid pb-3" style="padding-top: 70px">
-    <div class="text-start p-3" id="alw">
-      <h1>
-        Ali Widana
-        <h6>Junior Programmer & Graphic Designer</h6>
-      </h1>
+    <div class="container-fluid pb-3" style="padding-top: 70px">
+      <div class="text-start p-3" id="alw">
+        <h1>
+          Ali Widana
+          <h6>Junior Programmer & Graphic Designer</h6>
+        </h1>
+      </div>
     </div>
-
-    <div class="d-flex container " style="max-width: 500px;">
-      <div  class=" img-1  bg-primary " style="flex: 30%;"><img class="" width="auto" height="200px" src="th.jpg" alt="" /></div>
-      <p class="" style="flex: 70%;">
+    <div class="d-flex container-fluid bg-primary" style="max-width: 500px">
+      <div class="img-1 bg-primary" >
+        <img class="img-2"   src="th.jpg" alt="" />
+      </div>
+      <p class="ps-4">
         Hello, I am Alw, a vocational high school student , and I am very eager
         to develop skills focused on IT and Graphic Design. This is my first web
         portfolio project.
