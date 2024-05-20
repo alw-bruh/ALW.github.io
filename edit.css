@@ -1,9 +1,20 @@
-.programer {
-    background: linear-gradient(90deg, rgba(9,9,121,0.36289101822369574) 0%, rgba(0,212,255,1) 100%);  
+#top {
+    margin : 20% ;
 }
-.body{
-    background: linear-gradient(349deg, rgba(0,0,44,1) 0%, rgba(0,39,125,1) 100%);
-    color: white;
-
+#top h1 {
+    font-size: 40px;
 }
-
+#about {
+    margin: 10%;
+   
+}
+#skilll ul {
+    padding-bottom: 100px ;
+    
+}
+.page {
+    margin:5%;
+}
+#link {
+    padding-left: 50%;
+}
