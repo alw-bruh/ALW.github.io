@@ -86,6 +86,8 @@ header ul li a {
 .top-info div p {
   width: 90%;
   margin: auto;
+  font-style: italic;
+  font-size: 12px;
 }
 .top-info img {
   margin: auto;
