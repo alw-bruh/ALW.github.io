@@ -91,6 +91,7 @@ header ul li a {
 }
 .top-info img {
   margin: auto;
+  margin-bottom:6;
 
   width: 250px;
 }
