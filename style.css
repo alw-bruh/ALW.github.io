@@ -7,6 +7,7 @@ header {
 }
 header h1 {
   margin: auto;
+
   margin-left: 12px;
   font-weight: bolder;
   font-size: 24px;
@@ -32,7 +33,7 @@ header ul li a {
 
 .top-info {
   width: 100%;
-  height: 100%;
+  height: 105%;
   background: linear-gradient(
     0deg,
     rgba(63, 94, 251, 1) 0%,
@@ -41,12 +42,13 @@ header ul li a {
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .top-info button {
   justify-content: flex-end;
   padding: 10px 40px;
   margin-top: auto;
-  margin-bottom: 24px;
+  margin-bottom: 60px;
   margin-left: auto;
   margin-right: 20px;
   font-weight: bold;
@@ -72,7 +74,7 @@ header ul li a {
   filter: drop-shadow(0px 0px 10px #ecfdff);
   -webkit-filter: drop-shadow(0px 0px 10px #ecfdff);
 }
-.top-info div {
+.top-info .sub-info {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -80,10 +82,10 @@ header ul li a {
   color: #ecfdff;
   flex-direction: column;
 }
-.top-info div h1 {
+.top-info .sub-info h1 {
   font-size: 60;
 }
-.top-info div p {
+.top-info .sub-info p {
   width: 90%;
   margin: auto;
   font-style: italic;
@@ -91,21 +93,20 @@ header ul li a {
 }
 .top-info img {
   margin: auto;
-  margin-bottom:0px;
+  margin-bottom: 6;
 
   width: 250px;
 }
-.top-info ul {
-  margin-top: auto;
-
+.links {
   display: flex;
+  margin-top: auto;
+ 
 }
-.top-info ul li {
+.links a {
   margin: auto;
-  list-style: none;
 }
-.top-info .li-icon {
-  margin-left: -50%;
+
+.top-info .links .li-icon {
   width: 40px;
   height: auto;
   color: #ecfdff;
@@ -129,4 +130,17 @@ header ul li a {
   -o-border-radius: 6px;
   filter: drop-shadow(0px 0px 10px #ffffff);
   -webkit-filter: drop-shadow(0px 0px 10px #ffffff);
+}
+/*animation*/
+.skill {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+  
+}
+.skill .skill-icon {
+  width: 40px;
+  height: auto;
+  margin: auto;
 }
