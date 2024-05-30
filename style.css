@@ -34,6 +34,7 @@ header ul li a {
 .top-info {
   width: 100%;
   height: 105%;
+  padding-top: 30;
   background: linear-gradient(
     0deg,
     rgba(63, 94, 251, 1) 0%,
@@ -45,7 +46,6 @@ header ul li a {
   justify-content: center;
 }
 .top-info button {
-  justify-content: flex-end;
   padding: 10px 40px;
   margin-top: auto;
   margin-bottom: 60px;
@@ -99,8 +99,9 @@ header ul li a {
 }
 .links {
   display: flex;
-  margin-top: auto;
- 
+  margin: auto;
+  gap: 40px;
+  justify-content: center;
 }
 .links a {
   margin: auto;
@@ -134,13 +135,82 @@ header ul li a {
 /*animation*/
 .skill {
   display: flex;
-  margin: auto;
-  justify-content: center;
+  flex-direction: column;
   width: 100%;
-  
+  background-color: azure;
+  height: auto;
+  background: linear-gradient(
+    0deg,
+    rgba(70, 223, 252, 1) 0%,
+    rgba(63, 94, 251, 1) 100%
+  );
+  margin-top: 24;
+  color: #ecfdff;
+  padding: 24;
+}
+
+.skill .service-1 div {
+  max-width: 400px;
+
+  margin: auto;
+  margin-top: 24;
+  padding: 30;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  font-size: 12;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  transition: color 100ms ease-in;
+  -webkit-transition: color 100ms ease-in;
+  -moz-transition: color 100ms ease-in;
+  -ms-transition: color 100ms ease-in;
+  -o-transition: color 100ms ease-in;
+}
+.skill div h1 {
+  font-size: 26px;
+}
+.skill .service-1 div:hover {
+  background-color: #ecfdff;
+  color: rgba(63, 94, 251, 1);
+  filter: drop-shadow(0px 0px 5px #ffffff);
+  -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
+}
+.skill div .tools {
+  flex-direction: row;
+  padding: 0;
+  border: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 .skill .skill-icon {
   width: 40px;
   height: auto;
   margin: auto;
+}
+.skill .service {
+  justify-content: center;
+  margin: auto;
+
+  font-size: 36;
+}
+@media (min-width: 768px) {
+  .service-1 {
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    gap: 24px;
+  }
+  .service-1 div {
+    height: 300px;
+    min-width: 200px;
+  }
+  .top-info {
+  }
+  .top-info button {
+    margin: auto;
+  }
 }
