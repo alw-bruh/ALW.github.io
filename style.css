@@ -90,6 +90,7 @@ header ul li a {
   margin: auto;
   font-style: italic;
   font-size: 12px;
+  width: 300px;
 }
 .top-info img {
   margin: auto;
@@ -197,6 +198,86 @@ header ul li a {
 
   font-size: 36;
 }
+footer {
+  display: flex;
+  background-color: antiquewhite;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25;
+  font-size: 12px;
+
+  column-gap: 40px;
+  padding: 12;
+}
+footer .nav-footer {
+  flex-direction: column;
+}
+footer .nav-footer a {
+  text-decoration: none;
+
+  padding-left: 0;
+}
+footer .footer-2 {
+  flex-direction: column;
+}
+footer .footer-3 {
+  height: 60px;
+}
+.galery {
+  background: linear-gradient(
+    0deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(70, 223, 252, 1) 100%
+    
+  );
+  padding-bottom: 24px;
+  padding-top:24px;
+  color: #ecfdff;
+  margin-top:24px;
+  
+
+}
+.galery h1 {
+  margin: 24px;
+  font-size: 40px;
+  
+}
+.galery div {
+  display: flex;
+  flex-wrap: wrap;
+  
+
+  margin: 12px;
+ 
+ 
+}
+.galery img {
+  background-color: aqua;
+  border: solid;
+  border-color: #ecfdff;
+  border-radius: 12px;
+  margin:6px;
+  width: 10px;
+  flex: 1 35%;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.footer-3 {
+  background-color: rgba(70, 223, 252, 1);
+  padding:12px;
+  display: flex;
+}
+.footer-3 p {
+margin: auto;
+color: #ecfdff;
+font-weight: bold;
+
+
+}
 @media (min-width: 768px) {
   .service-1 {
     flex-direction: row;
@@ -208,8 +289,7 @@ header ul li a {
     height: 300px;
     min-width: 200px;
   }
-  .top-info {
-  }
+
   .top-info button {
     margin: auto;
   }
